@@ -1,6 +1,7 @@
 .gitconfig
 .piweb/
 .local/
+.npm/
 .app.log
 .tunnel.log
 node_modules/
