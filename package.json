@@ -1,0 +1,9 @@
+{
+  "name": "snake",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "bun serve.js",
+    "test": "bun test"
+  }
+}

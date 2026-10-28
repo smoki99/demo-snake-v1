@@ -1,0 +1,7 @@
+.gitconfig
+.piweb/
+.local/
+.app.log
+.tunnel.log
+node_modules/
+.DS_Store
