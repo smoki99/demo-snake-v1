@@ -2,7 +2,10 @@
 
 A tiny browser snake game written in plain **JavaScript**, running on **Bun** — no framework, no build step.
 
-![snake](https://img.shields.io/badge/bun-test%209%2F-brightgreen)
+> **This was an easy vibe code demo.** Written by [Christian Müller](https://github.com/smoki99) using
+> the [pi](https://github.com/earendil-works/pi) coding agent client (`@earendil-works/pi-coding-agent`) —
+> from empty folder to a published, tunnel-previewed game in **less than 1 hour**. Treat it as a
+> "what an agent can knock out in one sitting" showcase, not a production codebase.
 
 ## Run it
 
@@ -31,3 +34,7 @@ bun test        # 9 tests on the pure game logic
 Game state is mutated in place by small functions so the logic stays easy to test:
 `createGame()` → `placeFood()` → loop of `setDir()` / `step()`. Reversing 180° into yourself
 is ignored; hitting a wall or your own body sets `gameOver`, after which `step()` is a no-op.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
